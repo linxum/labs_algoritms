@@ -1,3 +1,7 @@
+//Написать программу генерации m - последовательностей 0 и 1, удовлетворяющих обоим требованиям :
+//1)никакие 3  единицы не стоят рядом;
+//2)число единиц превосходит число нулей.
+
 #include <iostream>
 #include <WIndows.h>
 
@@ -58,7 +62,7 @@ void Razm_P(int m, int n, int* result, int pos = 0)
 
 int main()
 {
-    int n = 2, m = 10; //m - , n -;
+    int n = 2, m = 8;
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     int* result = new int[m];
