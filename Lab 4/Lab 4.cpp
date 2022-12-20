@@ -1,4 +1,3 @@
-#define INF 2000000000
 #include <iostream>
 #include <Windows.h>
 
@@ -16,7 +15,7 @@ int main() {
 		sum[i] = sum[i - 1] + val;
 	}
 
-	int min = INF; int max = -INF;
+	int min = 100; int max = -100;
 	for (int i = k; i <= n; i++)
 	{
 		if (sum[i] - sum[i - k] < min)
